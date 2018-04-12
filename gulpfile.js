@@ -126,7 +126,7 @@ gulp.task('dev', function () {
 });
 
 gulp.task('prod', function () {
-    runSequence('build', 'server:prod');
+    runSequence('server:prod');
 });
 
 gulp.task('default', ['dev']);
