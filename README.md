@@ -38,7 +38,7 @@ npm run build
 * The single sign on server is by default `localhost` on port `8180`.  This is the port number if running a default SSO server `standalone.sh` 
 with the option `--Djboss.socket.binding.port-offset=100`
 
-* The default realm in the `keycloak.json` is **eap-node-realm**
+* The default realm in the `keycloak.json` is **eap-js-realm**
 
 * The file that authenticates against the Red Hat SSO instance, loads the user profile and then loads the Angular application is [bootstrap.js](https://github.com/mechevarria/jboss-client/blob/master/app/bootstrap.js)
 * The auth token, example: `Bearer eyJhbGci...` that is injected into the header of calls against protected Red Hat SSO instances is set in [api-header-service.js](https://github.com/mechevarria/jboss-client/blob/master/app/components/api/api-header-service.js)
