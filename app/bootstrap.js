@@ -39,9 +39,7 @@
     }
 
     function loadAngular(auth) {
-        angular.module('patternfly.app').factory('AuthSrvc', function () {
-            return auth;
-        });
+        angular.module('patternfly.app').constant('AUTH', auth);
         angular.bootstrap(document, ['patternfly.app']);
     }
 

@@ -23,6 +23,10 @@
             title: "Cars",
             iconClass: "fa fa-car",
             uiSref: "item"
+        }, {
+            title: "Profile",
+            iconClass: "fa fa-user",
+            uiSref: "profile"
         }];
 
         // Notifications

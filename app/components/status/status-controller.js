@@ -14,7 +14,8 @@
         $ctrl.check = function() {
 
             StatusSrvc.status().then(function(res) {
-                $ctrl.status = res;
+                $ctrl.status.data = res.data;
+                $ctrl.status.headers = res.config.headers;
                 NotifySrvc.success('Status: ' + res.data.status);
 
             }, function(err) {

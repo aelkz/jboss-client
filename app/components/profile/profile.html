@@ -1,0 +1,50 @@
+<div class="card-pf card-pf-accented">
+    <div class="card-pf-heading">
+        <h4 class="card-pf-title">Profile</h4>
+    </div>
+    <div class="card-pf-body">
+        <div class="row">
+            <div class="col-md-12">
+                <form>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">ID</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.id}}</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">User Name</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.username}}</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">First Name</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.firstName}}</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">Last Name</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.lastName}}</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">Email</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.email}}</p>
+                        </div>
+                    </div>
+                    <div class="form-group row">
+                        <label class="col-md-2 control-label">Created Timestamp</label>
+                        <div class="col-md-10">
+                            <p class="form-control-static">{{$ctrl.profile.createdTimestamp | date}}</p>
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+
+    </div>
+</div>
